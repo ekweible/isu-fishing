@@ -1,0 +1,26 @@
+{
+  "name": "isu-fishing",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekweible/isu-fishing.git"
+  },
+  "author": "ekweible <ekweible@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ekweible/isu-fishing/issues"
+  },
+  "homepage": "https://github.com/ekweible/isu-fishing",
+  "devDependencies": {
+    "bootstrap": "^3.2.0",
+    "browserify": "^4.2.1",
+    "gulp": "^3.8.6",
+    "gulp-livereload": "^2.1.0",
+    "gulp-react": "^0.4.0",
+    "gulp-sass": "^0.7.2",
+    "gulp-webserver": "^0.4.0",
+    "react": "^0.11.0",
+    "vinyl-source-stream": "^0.1.1"
+  }
+}
