@@ -2,10 +2,31 @@
 <head>
     <title>Fishing | ISU</title>
 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css">
-    <script src="static/app/app.js"></script>
+    <link rel="stylesheet" href="static/app/css/app.css">
 </head>
 <body>
-<Nav></Nav>
+    <div id="app"></div>
+
+    <script src="static/jquery/jquery.js"></script>
+    <script src="static/typeahead/typeahead.bundle.js"></script>
+    <script src="static/app/js/app.js"></script>
+    <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,26 @@
+.fishing-spots {
+    background-color: #fefefe;
+
+    .fishing-spot {
+        padding-bottom: 20px;
+
+        & > a {
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            color: #333;
+        }
+
+        &:nth-of-type(odd) {
+            background-color: #f6f6f6;
+        }
+
+        &:hover {
+            background-color: #3584C2;
+
+            h3, h3 small, p, a {
+                color: #fff;
+            }
+        }
+    }
+}
