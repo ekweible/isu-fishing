@@ -30,9 +30,11 @@ gulp.task('sass', function() {
 });
 
 gulp.task('stage-assets', function() {
-    gulp.src('./node_modules/jquery/dist/jquery.js')
+    gulp.src('./images/**')
+        .pipe(gulp.dest('./static/images/'));
+    gulp.src('./node_modules/jquery/dist/jquery*.js')
         .pipe(gulp.dest('./static/jquery'));
-    gulp.src('./node_modules/typeahead.js/dist/typeahead.bundle.js')
+    gulp.src('./node_modules/typeahead.js/dist/typeahead.bundle*js')
         .pipe(gulp.dest('./static/typeahead'));
     gulp.src('./node_modules/bootstrap/dist/**/*')
         .pipe(gulp.dest('./static/bootstrap'));
