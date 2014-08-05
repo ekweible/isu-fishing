@@ -1,5 +1,6 @@
-[
+module.exports = [
     {
+        "id": "ada-hayden-lake",
         "name": "Ada Hayden Heritage Park Lake",
         "shortName": "Ada Hayden",
         "location": "North side of Ames, West of Grand",
@@ -15,9 +16,13 @@
         "rules": [
             "No gas motors"
         ],
-        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=42.0643%2C-93.6281&key=AIzaSyBmbNEYy7WMYE7bI32OfrDOTT8xhXHzhFA"
+        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=42.0643%2C-93.6281&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
+        "latitude": 42.064485,
+        "longitude": -93.628089,
+        "image": "/images/ada-hayden.jpg"
     },
     {
+        "id": "big-creek-lake",
         "name": "Big Creek Lake",
         "shortName": "Big Creek Lake",
         "location": "2 miles north of Polk City",
@@ -33,9 +38,13 @@
             "White sucker"
         ],
         "size": 814,
-        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=13&center=41.8118%2C-93.7410&key=AIzaSyBmbNEYy7WMYE7bI32OfrDOTT8xhXHzhFA"
+        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=13&center=41.8118%2C-93.7410&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
+        "latitude": 41.8118,
+        "longitude": -93.741,
+        "image": "/images/big-creek-lake.jpg"
     },
     {
+        "id": "cambridge-pond",
         "name": "Cambridge Pond",
         "shortName": "Cambridge Pond",
         "location": "2 miles north of Cambridge",
@@ -46,9 +55,13 @@
             "Largemouth bass"
         ],
         "size": 2,
-        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=14&center=41.8983%2C-93.5291&key=AIzaSyBmbNEYy7WMYE7bI32OfrDOTT8xhXHzhFA"
+        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=14&center=41.8983%2C-93.5291&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
+        "latitude": 41.8983,
+        "longitude": -93.5291,
+        "image": "/images/cambridge-pond.jpg"
     },
     {
+        "id": "hickory-grove-lake",
         "name": "Hickory Grove Lake",
         "shortName": "Hickory Grove",
         "location": "3 miles southwest of Colo",
@@ -59,9 +72,13 @@
             "Largemouth bass"
         ],
         "size": 100,
-        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=41.9881%2C-93.3568&key=AIzaSyBmbNEYy7WMYE7bI32OfrDOTT8xhXHzhFA"
+        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=41.9881%2C-93.3568&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
+        "latitude": 41.9881,
+        "longitude": -93.3568,
+        "image": "/images/hickory-grove-lake.jpg"
     },
     {
+        "id": "little-wall-lake",
         "name": "Little Wall Lake",
         "shortName": "Little Wall Lake",
         "location": "1.5 miles south of Jewell",
@@ -72,9 +89,13 @@
             "Yellow perch"
         ],
         "size": 249,
-        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=42.2686%2C-93.6382&key=AIzaSyBmbNEYy7WMYE7bI32OfrDOTT8xhXHzhFA"
+        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=42.2686%2C-93.6382&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
+        "latitude": 42.2686,
+        "longitude": -93.6382,
+        "image": "/images/little-wall-lake.jpg"
     },
     {
+        "id": "mcfarland-pond",
         "name": "McFarland Pond",
         "shortName": "McFarland Pond",
         "location": "4 miles northeast of Ames",
@@ -83,9 +104,13 @@
             "Largemouth bass"
         ],
         "size": 8,
-        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0957%2C-93.5699&key=AIzaSyBmbNEYy7WMYE7bI32OfrDOTT8xhXHzhFA",
+        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0957%2C-93.5699&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
+        "latitude": 42.0957,
+        "longitude": -93.5699,
+        "image": "/images/mcfarland-park-pond.jpg"
     },
     {
+        "id": "moore-park-pond",
         "name": "Moore Memorial Park Pond",
         "shortName": "Moore Park",
         "location": "Northwest Ames",
@@ -95,10 +120,14 @@
             "Largemouth bass"
         ],
         "size": 1,
-        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0438%2C-93.6509&key=AIzaSyBmbNEYy7WMYE7bI32OfrDOTT8xhXHzhFA"
+        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0438%2C-93.6509&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
+        "latitude": 42.0438,
+        "longitude": -93.6509,
+        "image": "/images/moore-park-pond.jpg"
     },
     {
-        "name": "Petersons Pit",
+        "id": "petersons-pit",
+        "name": "Peterson's Pit",
         "shortName": "Petersons Pit",
         "location": "4 miles northeast of Ames",
         "fish": [
@@ -110,9 +139,13 @@
             "White crappie"
         ],
         "size": 33,
-        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0857%2C-93.5958&key=AIzaSyBmbNEYy7WMYE7bI32OfrDOTT8xhXHzhFA"
+        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0857%2C-93.5958&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
+        "latitude": 42.0857,
+        "longitude": -93.5958,
+        "image": "/images/petersons-pit.jpg"
     },
     {
+        "id": "south-skunk-river",
         "name": "South Skunk River",
         "shortName": "South Skunk River",
         "location": "Story City to Cambridge",
@@ -124,6 +157,9 @@
             "Smallmouth bass"
         ],
         "size": 30,
-        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0369%2C-93.6010&key=AIzaSyBmbNEYy7WMYE7bI32OfrDOTT8xhXHzhFA"
+        "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0369%2C-93.6010&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
+        "latitude": 42.0369,
+        "longitude": -93.6010,
+        "image": "/images/south-skunk-river.jpg"
     }
-]
+];

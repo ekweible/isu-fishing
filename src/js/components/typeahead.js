@@ -9,29 +9,27 @@ var Typeahead = module.exports = React.createClass({
     },
     componentWillMount: function() {
         this.state.engineReady = new Promise(function(resolve) {
-            data.getFishingSpots().then(function(data) {
-                var engine = new Bloodhound({
-                    name: 'fishing-spots',
-                    local: data,
-                    datumTokenizer: function(datum) {
-                        var tokens = [];
-                        datum.fish.forEach(function(fish) {
-                            tokens = tokens.concat(fish.toLowerCase().split(' '));
-                        });
-                        tokens = tokens.concat(datum.name.toLowerCase().split(' ').map(function(token) {
-                            return token.trim().toLowerCase();
-                        }));
-                        return tokens;
-                    },
-                    queryTokenizer: function(query) {
-                        return query.split(' ').map(function(token) {
-                            return token.trim().toLowerCase();
-                        });
-                    }
-                });
-                engine.initialize();
-                resolve(engine);
+            var engine = new Bloodhound({
+                name: 'fishing-spots',
+                local: data.getFishingSpots(),
+                datumTokenizer: function(datum) {
+                    var tokens = [];
+                    datum.fish.forEach(function(fish) {
+                        tokens = tokens.concat(fish.toLowerCase().split(' '));
+                    });
+                    tokens = tokens.concat(datum.name.toLowerCase().split(' ').map(function(token) {
+                        return token.trim().toLowerCase();
+                    }));
+                    return tokens;
+                },
+                queryTokenizer: function(query) {
+                    return query.split(' ').map(function(token) {
+                        return token.trim().toLowerCase();
+                    });
+                }
             });
+            engine.initialize();
+            resolve(engine);
         });
     },
     componentDidMount: function() {

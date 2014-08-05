@@ -1,0 +1,24 @@
+.location {
+    padding-bottom: 20px;
+
+    .back {
+        display: block;
+        margin-top: 20px;
+        color: #bbbbbb;
+        font-size: 18px;
+        text-decoration: none;
+
+        &:hover {
+            color: #888888;
+        }
+    }
+
+    h4 {
+        margin-top: 25px;
+    }
+
+    .fish-list {
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
