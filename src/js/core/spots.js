@@ -19,7 +19,7 @@ module.exports = [
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=42.0643%2C-93.6281&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.064485,
         "longitude": -93.628089,
-        "image": "/images/ada-hayden.jpg"
+        "image": "/static/images/ada-hayden.jpg"
     },
     {
         "id": "big-creek-lake",
@@ -41,7 +41,7 @@ module.exports = [
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=13&center=41.8118%2C-93.7410&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 41.8118,
         "longitude": -93.741,
-        "image": "/images/big-creek-lake.jpg"
+        "image": "/static/images/big-creek-lake.jpg"
     },
     {
         "id": "cambridge-pond",
@@ -58,7 +58,7 @@ module.exports = [
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=14&center=41.8983%2C-93.5291&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 41.8983,
         "longitude": -93.5291,
-        "image": "/images/cambridge-pond.jpg"
+        "image": "/static/images/cambridge-pond.jpg"
     },
     {
         "id": "hickory-grove-lake",
@@ -75,7 +75,7 @@ module.exports = [
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=41.9881%2C-93.3568&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 41.9881,
         "longitude": -93.3568,
-        "image": "/images/hickory-grove-lake.jpg"
+        "image": "/static/images/hickory-grove-lake.jpg"
     },
     {
         "id": "little-wall-lake",
@@ -92,7 +92,7 @@ module.exports = [
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=42.2686%2C-93.6382&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.2686,
         "longitude": -93.6382,
-        "image": "/images/little-wall-lake.jpg"
+        "image": "/static/images/little-wall-lake.jpg"
     },
     {
         "id": "mcfarland-pond",
@@ -107,7 +107,7 @@ module.exports = [
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0957%2C-93.5699&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.0957,
         "longitude": -93.5699,
-        "image": "/images/mcfarland-park-pond.jpg"
+        "image": "/static/images/mcfarland-park-pond.jpg"
     },
     {
         "id": "moore-park-pond",
@@ -123,7 +123,7 @@ module.exports = [
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0438%2C-93.6509&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.0438,
         "longitude": -93.6509,
-        "image": "/images/moore-park-pond.jpg"
+        "image": "/static/images/moore-park-pond.jpg"
     },
     {
         "id": "petersons-pit",
@@ -142,7 +142,7 @@ module.exports = [
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0857%2C-93.5958&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.0857,
         "longitude": -93.5958,
-        "image": "/images/petersons-pit.jpg"
+        "image": "/static/images/petersons-pit.jpg"
     },
     {
         "id": "south-skunk-river",
@@ -160,6 +160,6 @@ module.exports = [
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0369%2C-93.6010&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.0369,
         "longitude": -93.6010,
-        "image": "/images/south-skunk-river.jpg"
+        "image": "/static/images/south-skunk-river.jpg"
     }
 ];
