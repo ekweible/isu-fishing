@@ -6,7 +6,8 @@ var Header = module.exports = React.createClass({
     getInitialState: function() {
         return {
             title: 'Go Fishing',
-            subtitle: 'Iowa State'
+            subtitle: 'Iowa State',
+            subtitleMin: 'ISU'
         };
     },
 
@@ -23,7 +24,11 @@ var Header = module.exports = React.createClass({
                         </button>
                         <h1>
                             <Link to="/" className="navbar-brand">
-                                {this.state.title} <small>{this.state.subtitle}</small>
+                                {this.state.title}
+                                <small>
+                                    <span className="hidden-xs">{this.state.subtitle}</span>
+                                    <span className="visible-xs-inline">{this.state.subtitleMin}</span>
+                                </small>
                             </Link>
                         </h1>
                     </div>
