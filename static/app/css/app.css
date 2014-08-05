@@ -1,0 +1,185 @@
+p, h1, h2, h3, h4, h5, h6, a, li {
+  font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif; }
+
+h1, h2 {
+  font-weight: 600; }
+
+h3, h4, h5, h6 {
+  font-weight: 600; }
+
+.lead {
+  font-weight: 300; }
+
+a {
+  text-decoration: underline; }
+
+a:hover {
+  text-decoration: none; }
+
+.header.navbar {
+  background-color: #CC3737;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid rgba(255, 204, 102, 0.7);
+  margin-bottom: 0; }
+  .header.navbar h1 {
+    margin: 0; }
+  .header.navbar h1 a {
+    font-size: 36px;
+    margin: 5px 0;
+    color: #ffffff;
+    text-decoration: none; }
+    .header.navbar h1 a small {
+      margin-left: 5px;
+      color: #ffcc66; }
+    .header.navbar h1 a:hover {
+      color: #fff; }
+  .header.navbar .navbar-toggle {
+    margin-top: 14px;
+    border-color: #a12b2b;
+    background-color: #a12b2b; }
+    .header.navbar .navbar-toggle .icon-bar {
+      background-color: #CC3737; }
+    .header.navbar .navbar-toggle:hover .icon-bar {
+      background-color: #ffcc66; }
+  .header.navbar .navbar-nav a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffcc66;
+    line-height: 30px;
+    text-decoration: none;
+    padding-left: 8px;
+    padding-right: 8px; }
+    .header.navbar .navbar-nav a:hover {
+      background-color: #a12b2b;
+      color: #ffcc66; }
+  .header.navbar .navbar-collapse.collapsing, .header.navbar .navbar-collapse.in {
+    border-top: 2px solid rgba(255, 204, 102, 0.7); }
+
+.fishing {
+  position: relative;
+  height: 500px;
+  background: url('/static/images/lake-bg.jpg') transparent no-repeat center center;
+  background-size: cover; }
+  .fishing .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0; }
+  .fishing .content {
+    padding-top: 40px; }
+  .fishing .search {
+    position: relative;
+    z-index: 20;
+    margin: 10px auto 20px;
+    max-width: 600px; }
+  .fishing .view-all {
+    margin-top: 80px;
+    text-align: center; }
+    .fishing .view-all .down {
+      margin-left: 5px;
+      padding: 8px 9px 8px 8px;
+      background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 20px; }
+  .fishing p.overlay-text {
+    color: #fff;
+    opacity: 0.9; }
+    .fishing p.overlay-text a {
+      color: #fff; }
+    .fishing p.overlay-text.lead {
+      font-size: 40px; }
+    .fishing p.overlay-text.view-all {
+      font-size: 18px; }
+
+.twitter-typeahead {
+  position: relative;
+  direction: ltr;
+  display: block !important; }
+  .twitter-typeahead input[type="text"] {
+    width: 86%;
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important; }
+  .twitter-typeahead .tt-hint {
+    color: #888; }
+  .twitter-typeahead .tt-dropdown-menu {
+    width: 86%;
+    margin-top: 4px;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    border-color: #bec0bf;
+    z-index: 20; }
+    .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots {
+      background-color: #f7f7f7;
+      border-radius: 6px; }
+      .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots p {
+        padding: 0 16px;
+        margin: 0; }
+      .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots p.empty {
+        padding: 10px 16px;
+        color: #777777; }
+        .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots p.empty .suggestions {
+          display: inline-block;
+          margin-top: 6px;
+          color: #333; }
+          .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots p.empty .suggestions a {
+            margin-left: 6px; }
+      .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots .tt-suggestion {
+        padding: 10px 0;
+        border-bottom: 1px solid #bec0bf;
+        color: #333 !important; }
+        .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots .tt-suggestion .name {
+          font-weight: 600; }
+        .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots .tt-suggestion .size {
+          margin-left: 6px;
+          color: #777777; }
+        .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots .tt-suggestion.tt-cursor {
+          background-color: #3584c2; }
+          .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots .tt-suggestion.tt-cursor .name {
+            color: #fff; }
+          .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots .tt-suggestion.tt-cursor .size {
+            color: #e6e6e6; }
+        .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots .tt-suggestion:first-of-type {
+          border-top-left-radius: 6px;
+          border-top-right-radius: 6px; }
+        .twitter-typeahead .tt-dropdown-menu .tt-dataset-fishing-spots .tt-suggestion:last-of-type {
+          border-bottom-left-radius: 6px;
+          border-bottom-right-radius: 6px; }
+
+.fishing-spots {
+  background-color: #fefefe; }
+  .fishing-spots .fishing-spot {
+    padding-bottom: 20px; }
+    .fishing-spots .fishing-spot > a {
+      display: block;
+      width: 100%;
+      text-decoration: none;
+      color: #333; }
+    .fishing-spots .fishing-spot:nth-of-type(odd) {
+      background-color: #f6f6f6; }
+    .fishing-spots .fishing-spot:hover {
+      background-color: #3584C2; }
+      .fishing-spots .fishing-spot:hover h3, .fishing-spots .fishing-spot:hover h3 small, .fishing-spots .fishing-spot:hover p, .fishing-spots .fishing-spot:hover a {
+        color: #fff; }
+    .fishing-spots .fishing-spot .picture {
+      height: 200px;
+      background-position: center center;
+      background-size: cover; }
+
+.location {
+  padding-bottom: 20px; }
+  .location .back {
+    display: block;
+    margin-top: 20px;
+    color: #bbbbbb;
+    font-size: 18px;
+    text-decoration: none; }
+    .location .back:hover {
+      color: #888888; }
+  .location h4 {
+    margin-top: 25px; }
+  .location .fish-list {
+    font-weight: 400;
+    font-size: 16px; }
