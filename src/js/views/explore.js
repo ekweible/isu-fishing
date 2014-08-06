@@ -22,7 +22,6 @@ var List = module.exports = React.createClass({
         });
         return (
             <div>
-                <a name="fishing-spots"></a>
                 <Grid className="fishing-spots">
                     {fishingSpotNodes}
                 </Grid>

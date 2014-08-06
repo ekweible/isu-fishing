@@ -2,6 +2,7 @@
 var React = require('react');
 var Promise = require('es6-promise').Promise;
 var data = require('../core/data.js');
+var Router = require('react-router');
 
 var Typeahead = module.exports = React.createClass({
     getInitialState: function() {
@@ -73,12 +74,24 @@ var Typeahead = module.exports = React.createClass({
             });
             $typeahead.parents('.twitter-typeahead').children().unwrap();
             $typeahead.parents('.search').addClass('twitter-typeahead');
-            $typeahead.parents('.search').find('.tt-dataset-fishing-spots').on('click', '.empty a', function() {
+            $typeahead.parents('.search').find('.tt-dataset-fishing-spots').on('click', '.empty a', function(event) {
+                event.preventDefault();
+                event.stopPropagation();
                 $typeahead.typeahead('val', $(this).text());
             });
+
+            // listen for selected event
+            $typeahead.on('typeahead:selected', function(event, datum) {
+                Router.transitionTo('location', {name: datum.id});
+            });
+
+//            // open search results when search icon is clicked
+//            $typeahead.siblings('.input-group-btn').find('.btn').on('click', function() {
+//                $typeahead.typeahead('open');
+//            });
         });
     },
     render: function() {
-        return <input type="text" id="search" className="form-control" placeholder="Bluegill" />;
+        return <input type="text" id="search" className="form-control" placeholder="Search by fish or location" />;
     }
 });

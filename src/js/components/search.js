@@ -7,11 +7,6 @@ var Search = module.exports = React.createClass({
         return (
             <div className="search input-group input-group-lg">
                 <Typeahead />
-                <span className="input-group-btn">
-                    <button className="btn btn-default" type="button">
-                        <span className="glyphicon glyphicon-search"></span>
-                    </button>
-                </span>
             </div>
         );
     }

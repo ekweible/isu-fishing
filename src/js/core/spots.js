@@ -13,9 +13,7 @@ module.exports = [
             "Striped bass"
         ],
         "size": 137,
-        "rules": [
-            "No gas motors"
-        ],
+        "rules": "Only electric motors are allowed.",
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=42.0643%2C-93.6281&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.064485,
         "longitude": -93.628089,
@@ -38,6 +36,7 @@ module.exports = [
             "White sucker"
         ],
         "size": 814,
+        "rules": "Gas and electric motors are allowed, but no wake is allowed.",
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=13&center=41.8118%2C-93.7410&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 41.8118,
         "longitude": -93.741,
@@ -55,6 +54,9 @@ module.exports = [
             "Largemouth bass"
         ],
         "size": 2,
+        "amenities": [
+            "No boat ramp"
+        ],
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=14&center=41.8983%2C-93.5291&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 41.8983,
         "longitude": -93.5291,
@@ -89,6 +91,17 @@ module.exports = [
             "Yellow perch"
         ],
         "size": 249,
+        "amenities": [
+            "Boat access",
+            "Boat rental",
+            "Picnic area",
+            "Beach",
+            "Playground",
+            "Restrooms",
+            "Camping",
+            "Concessions"
+        ],
+        "rules": "Largemouth bass measuring 18 inches or smaller must be released.",
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=15&center=42.2686%2C-93.6382&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.2686,
         "longitude": -93.6382,
@@ -104,6 +117,9 @@ module.exports = [
             "Largemouth bass"
         ],
         "size": 8,
+        "amenities": [
+            "No boat ramp"
+        ],
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0957%2C-93.5699&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.0957,
         "longitude": -93.5699,
@@ -120,6 +136,9 @@ module.exports = [
             "Largemouth bass"
         ],
         "size": 1,
+        "amenities": [
+            "No boat ramp"
+        ],
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0438%2C-93.6509&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.0438,
         "longitude": -93.6509,
@@ -155,6 +174,9 @@ module.exports = [
             "Crappie",
             "Largemouth bass",
             "Smallmouth bass"
+        ],
+        "amenities": [
+            "Canoe and kayak access points"
         ],
         "size": 30,
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0369%2C-93.6010&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
