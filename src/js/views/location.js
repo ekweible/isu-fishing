@@ -39,6 +39,36 @@ module.exports = React.createClass({
             );
         }
 
+        // build amenities list
+        var amenitiesNodes;
+        if (this.state.data.amenities && this.state.data.amenities.length) {
+            var amenities = [];
+            this.state.data.amenities.forEach(function(amenity) {
+                amenities.push(<li className="list-group-item" key={amenity}>{amenity}</li>);
+            });
+            amenitiesNodes = (
+                <div>
+                    <h4>What amenities are (or aren't) there?</h4>
+                    <ul className="list-group">{amenities}</ul>
+                </div>
+            );
+        } else {
+            amenitiesNodes = <div></div>;
+        }
+
+        // build rules list
+        var rulesNodes;
+        if (this.state.data.rules && this.state.data.rules.length) {
+            rulesNodes = (
+                <div>
+                    <h4>What rules are there?</h4>
+                    <p>{this.state.data.rules}</p>
+                </div>
+            );
+        } else {
+            rulesNodes = <div></div>;
+        }
+
         return (
             <div>
                 <a name="location"></a>
@@ -58,9 +88,12 @@ module.exports = React.createClass({
                             <ul className="list-group">
                                 {fishNodes}
                             </ul>
+
+                            {amenitiesNodes}
                         </div>
 
                         <div className="col-xs-12 col-sm-9">
+                            {rulesNodes}
                             <h4>How do I get there?</h4>
                             <GoogleMap width="100%" height="350px" src={this.state.data.googleMap} />
                         </div>
