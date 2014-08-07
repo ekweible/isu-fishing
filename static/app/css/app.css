@@ -160,9 +160,9 @@ a:hover {
       color: #333; }
     .fishing-spots .fishing-spot:nth-of-type(odd) {
       background-color: #f6f6f6; }
-    .fishing-spots .fishing-spot:hover {
+    .fishing-spots .fishing-spot:hover, .fishing-spots .fishing-spot:active {
       background-color: #3584C2; }
-      .fishing-spots .fishing-spot:hover h3, .fishing-spots .fishing-spot:hover h3 small, .fishing-spots .fishing-spot:hover p, .fishing-spots .fishing-spot:hover a {
+      .fishing-spots .fishing-spot:hover h3, .fishing-spots .fishing-spot:hover h3 small, .fishing-spots .fishing-spot:hover p, .fishing-spots .fishing-spot:hover a, .fishing-spots .fishing-spot:active h3, .fishing-spots .fishing-spot:active h3 small, .fishing-spots .fishing-spot:active p, .fishing-spots .fishing-spot:active a {
         color: #fff; }
     .fishing-spots .fishing-spot .picture {
       height: 200px;
