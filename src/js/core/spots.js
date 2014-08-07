@@ -123,7 +123,7 @@ module.exports = [
         "googleMap": "https://www.google.com/maps/embed/v1/view?zoom=16&center=42.0957%2C-93.5699&key=AIzaSyB5kr8tYbjij15a4saixkgSvc_8zIiNFc0",
         "latitude": 42.0957,
         "longitude": -93.5699,
-        "image": "/static/images/mcfarland-park-pond.jpg"
+        "image": "/static/images/mcfarland-park-lake.jpg"
     },
     {
         "id": "moore-park-pond",

@@ -35,9 +35,9 @@ var Header = module.exports = React.createClass({
 
                     <div className="collapse navbar-collapse" id="navbar-collapse">
                         <ul className="nav navbar-nav navbar-right">
-                            <li><Link to="club">ISU Fishing Club</Link></li>
+                            <li><a href="https://sodb-stuorg.sws.iastate.edu/view.php?id=1057" target="_blank">ISU Fishing Club</a></li>
                             <li><Link to="license">Fishing License</Link></li>
-                            <li><Link to="dnr">DNR</Link></li>
+                            <li><a href="http://www.iowadnr.gov/" target="_blank">DNR</a></li>
                             <li><Link to="explore">Locations</Link></li>
                         </ul>
                     </div>
